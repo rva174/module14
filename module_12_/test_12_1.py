@@ -16,7 +16,6 @@ class Runner:
     def __str__(self):
         return self.name
 
-
 class TestRunner(unittest.TestCase):
     def setUp(self):
         self.runner = Runner('name')
