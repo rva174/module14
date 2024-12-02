@@ -12,7 +12,7 @@ from grud_function import *
 from add_products import *
 
 
-api = '7896102855:AAHI1_Ozmi5PdqWVy9arpb1jibnmxwbFK9g'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
